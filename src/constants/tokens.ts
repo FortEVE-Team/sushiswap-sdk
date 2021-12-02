@@ -13,6 +13,7 @@ export const USDC: TokenMap = {
 
 export const USD: TokenMap = {
   ...USDC,
+  [ChainId.FINDORA_TESTNET]: new Token(ChainId.FINDORA_TESTNET, USD_ADDRESS[ChainId.FINDORA_TESTNET], 18, 'USDT', 'Tether USD'),
 }
 
 export const WETH9: TokenMap = {
