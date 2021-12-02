@@ -13,7 +13,6 @@ export const USDC: TokenMap = {
 
 export const USD: TokenMap = {
   ...USDC,
-  [ChainId.CELO]: new Token(ChainId.CELO, USD_ADDRESS[ChainId.CELO], 18, 'cUSD', 'Celo Dollar'),
 }
 
 export const WETH9: TokenMap = {
