@@ -511,42 +511,10 @@ function currencyEquals(currencyA, currencyB) {
 }
 
 var _USDC, _extends2, _WETH, _WNATIVE;
-var USDC = (_USDC = {}, _USDC[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, USDC_ADDRESS[exports.ChainId.MAINNET], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.ROPSTEN] = /*#__PURE__*/new Token(exports.ChainId.ROPSTEN, USDC_ADDRESS[exports.ChainId.ROPSTEN], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.KOVAN] = /*#__PURE__*/new Token(exports.ChainId.KOVAN, USDC_ADDRESS[exports.ChainId.KOVAN], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.MATIC] = /*#__PURE__*/new Token(exports.ChainId.MATIC, USDC_ADDRESS[exports.ChainId.MATIC], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.FANTOM] = /*#__PURE__*/new Token(exports.ChainId.FANTOM, USDC_ADDRESS[exports.ChainId.FANTOM], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.BSC] = /*#__PURE__*/new Token(exports.ChainId.BSC, USDC_ADDRESS[exports.ChainId.BSC], 18, 'USDC', 'USD Coin'), _USDC[exports.ChainId.HARMONY] = /*#__PURE__*/new Token(exports.ChainId.HARMONY, USDC_ADDRESS[exports.ChainId.HARMONY], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.HECO] = /*#__PURE__*/new Token(exports.ChainId.HECO, USDC_ADDRESS[exports.ChainId.HECO], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.OKEX] = /*#__PURE__*/new Token(exports.ChainId.OKEX, USDC_ADDRESS[exports.ChainId.OKEX], 18, 'USDC', 'USD Coin'), _USDC[exports.ChainId.XDAI] = /*#__PURE__*/new Token(exports.ChainId.XDAI, USDC_ADDRESS[exports.ChainId.XDAI], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.ARBITRUM] = /*#__PURE__*/new Token(exports.ChainId.ARBITRUM, USDC_ADDRESS[exports.ChainId.ARBITRUM], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.MOONRIVER] = /*#__PURE__*/new Token(exports.ChainId.MOONRIVER, USDC_ADDRESS[exports.ChainId.MOONRIVER], 6, 'USDC', 'USD Coin'), _USDC);
+var USDC = (_USDC = {}, _USDC[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, USDC_ADDRESS[exports.ChainId.MAINNET], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.FINDORA_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.FINDORA_TESTNET, USDC_ADDRESS[exports.ChainId.FINDORA_TESTNET], 18, 'USDC', 'USD Coin'), _USDC[exports.ChainId.ROPSTEN] = /*#__PURE__*/new Token(exports.ChainId.ROPSTEN, USDC_ADDRESS[exports.ChainId.ROPSTEN], 6, 'USDC', 'USD Coin'), _USDC[exports.ChainId.BSC_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.KOVAN, USDC_ADDRESS[exports.ChainId.KOVAN], 6, 'USDC', 'USD Coin'), _USDC);
 var USD = /*#__PURE__*/_extends({}, USDC, (_extends2 = {}, _extends2[exports.ChainId.CELO] = /*#__PURE__*/new Token(exports.ChainId.CELO, USD_ADDRESS[exports.ChainId.CELO], 18, 'cUSD', 'Celo Dollar'), _extends2));
-var WETH9 = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, WETH9_ADDRESS[exports.ChainId.MAINNET], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.ROPSTEN] = /*#__PURE__*/new Token(exports.ChainId.ROPSTEN, WETH9_ADDRESS[exports.ChainId.ROPSTEN], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.RINKEBY] = /*#__PURE__*/new Token(exports.ChainId.RINKEBY, WETH9_ADDRESS[exports.ChainId.RINKEBY], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.GÖRLI] = /*#__PURE__*/new Token(exports.ChainId.GÖRLI, WETH9_ADDRESS[exports.ChainId.GÖRLI], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.KOVAN] = /*#__PURE__*/new Token(exports.ChainId.KOVAN, WETH9_ADDRESS[exports.ChainId.KOVAN], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.ARBITRUM] = /*#__PURE__*/new Token(exports.ChainId.ARBITRUM, WETH9_ADDRESS[exports.ChainId.ARBITRUM], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.ARBITRUM_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.ARBITRUM_TESTNET, WETH9_ADDRESS[exports.ChainId.ARBITRUM_TESTNET], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.BSC] = /*#__PURE__*/new Token(exports.ChainId.BSC, WETH9_ADDRESS[exports.ChainId.BSC], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.FANTOM] = /*#__PURE__*/new Token(exports.ChainId.FANTOM, WETH9_ADDRESS[exports.ChainId.FANTOM], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.MATIC] = /*#__PURE__*/new Token(exports.ChainId.MATIC, WETH9_ADDRESS[exports.ChainId.MATIC], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.OKEX] = /*#__PURE__*/new Token(exports.ChainId.OKEX, WETH9_ADDRESS[exports.ChainId.OKEX], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.HECO] = /*#__PURE__*/new Token(exports.ChainId.HECO, WETH9_ADDRESS[exports.ChainId.HECO], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.HARMONY] = /*#__PURE__*/new Token(exports.ChainId.HARMONY, WETH9_ADDRESS[exports.ChainId.HARMONY], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.XDAI] = /*#__PURE__*/new Token(exports.ChainId.XDAI, WETH9_ADDRESS[exports.ChainId.XDAI], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.AVALANCHE] = /*#__PURE__*/new Token(exports.ChainId.AVALANCHE, WETH9_ADDRESS[exports.ChainId.AVALANCHE], 18, 'WETH', 'Wrapped Ether'), _WETH);
-var WNATIVE = (_WNATIVE = {}, _WNATIVE[exports.ChainId.MAINNET] = WETH9[exports.ChainId.MAINNET], _WNATIVE[exports.ChainId.ROPSTEN] = WETH9[exports.ChainId.ROPSTEN], _WNATIVE[exports.ChainId.RINKEBY] = WETH9[exports.ChainId.RINKEBY], _WNATIVE[exports.ChainId.GÖRLI] = WETH9[exports.ChainId.GÖRLI], _WNATIVE[exports.ChainId.KOVAN] = WETH9[exports.ChainId.KOVAN], _WNATIVE[exports.ChainId.FANTOM] = /*#__PURE__*/new Token(exports.ChainId.FANTOM, WNATIVE_ADDRESS[exports.ChainId.FANTOM], 18, 'WFTM', 'Wrapped FTM'), _WNATIVE[exports.ChainId.FANTOM_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.FANTOM_TESTNET, WNATIVE_ADDRESS[exports.ChainId.FANTOM_TESTNET], 18, 'FTM', 'Wrapped FTM'), _WNATIVE[exports.ChainId.MATIC] = /*#__PURE__*/new Token(exports.ChainId.MATIC, WNATIVE_ADDRESS[exports.ChainId.MATIC], 18, 'WMATIC', 'Wrapped Matic'), _WNATIVE[exports.ChainId.MATIC_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.MATIC_TESTNET, WNATIVE_ADDRESS[exports.ChainId.MATIC_TESTNET], 18, 'WMATIC', 'Wrapped Matic'), _WNATIVE[exports.ChainId.XDAI] = /*#__PURE__*/new Token(exports.ChainId.XDAI, WNATIVE_ADDRESS[exports.ChainId.XDAI], 18, 'WXDAI', 'Wrapped xDai'), _WNATIVE[exports.ChainId.BSC] = /*#__PURE__*/new Token(exports.ChainId.BSC, WNATIVE_ADDRESS[exports.ChainId.BSC], 18, 'WBNB', 'Wrapped BNB'), _WNATIVE[exports.ChainId.BSC_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.BSC_TESTNET, WNATIVE_ADDRESS[exports.ChainId.BSC_TESTNET], 18, 'WBNB', 'Wrapped BNB'), _WNATIVE[exports.ChainId.ARBITRUM] = WETH9[exports.ChainId.ARBITRUM], _WNATIVE[exports.ChainId.ARBITRUM_TESTNET] = WETH9[exports.ChainId.ARBITRUM_TESTNET], _WNATIVE[exports.ChainId.MOONBEAM_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.MOONBEAM_TESTNET, WNATIVE_ADDRESS[exports.ChainId.MOONBEAM_TESTNET], 18, 'WETH', 'Wrapped Ether'), _WNATIVE[exports.ChainId.AVALANCHE] = /*#__PURE__*/new Token(exports.ChainId.AVALANCHE, WNATIVE_ADDRESS[exports.ChainId.AVALANCHE], 18, 'WAVAX', 'Wrapped AVAX'), _WNATIVE[exports.ChainId.AVALANCHE_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.AVALANCHE_TESTNET, WNATIVE_ADDRESS[exports.ChainId.AVALANCHE_TESTNET], 18, 'WAVAX', 'Wrapped AVAX'), _WNATIVE[exports.ChainId.HECO] = /*#__PURE__*/new Token(exports.ChainId.HECO, WNATIVE_ADDRESS[exports.ChainId.HECO], 18, 'WHT', 'Wrapped HT'), _WNATIVE[exports.ChainId.HECO_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.HECO_TESTNET, WNATIVE_ADDRESS[exports.ChainId.HECO_TESTNET], 18, 'WHT', 'Wrapped HT'), _WNATIVE[exports.ChainId.HARMONY] = /*#__PURE__*/new Token(exports.ChainId.HARMONY, WNATIVE_ADDRESS[exports.ChainId.HARMONY], 18, 'WONE', 'Wrapped ONE'), _WNATIVE[exports.ChainId.HARMONY_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.HARMONY_TESTNET, WNATIVE_ADDRESS[exports.ChainId.HARMONY_TESTNET], 18, 'WONE', 'Wrapped ONE'), _WNATIVE[exports.ChainId.OKEX] = /*#__PURE__*/new Token(exports.ChainId.OKEX, WNATIVE_ADDRESS[exports.ChainId.OKEX], 18, 'WOKT', 'Wrapped OKExChain'), _WNATIVE[exports.ChainId.OKEX_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.OKEX_TESTNET, WNATIVE_ADDRESS[exports.ChainId.OKEX_TESTNET], 18, 'WOKT', 'Wrapped OKExChain'), _WNATIVE[exports.ChainId.CELO] = /*#__PURE__*/new Token(exports.ChainId.CELO, WNATIVE_ADDRESS[exports.ChainId.CELO], 18, 'CELO', 'Celo'), _WNATIVE[exports.ChainId.PALM] = /*#__PURE__*/new Token(exports.ChainId.PALM, WNATIVE_ADDRESS[exports.ChainId.PALM], 18, 'WPALM', 'Wrapped Palm'), _WNATIVE[exports.ChainId.MOONRIVER] = /*#__PURE__*/new Token(exports.ChainId.MOONRIVER, WNATIVE_ADDRESS[exports.ChainId.MOONRIVER], 18, 'WMOVR', 'Wrapped Moonriver'), _WNATIVE[exports.ChainId.FUSE] = /*#__PURE__*/new Token(exports.ChainId.FUSE, WNATIVE_ADDRESS[exports.ChainId.FUSE], 18, 'WFUSE', 'Wrapped Fuse'), _WNATIVE[exports.ChainId.TELOS] = /*#__PURE__*/new Token(exports.ChainId.TELOS, WNATIVE_ADDRESS[exports.ChainId.TELOS], 18, 'WTLOS', 'Wrapped Telos'), _WNATIVE);
-
-var Avalanche = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Avalanche, _NativeCurrency);
-
-  function Avalanche(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'AVAX', 'Avalanche') || this;
-  }
-
-  Avalanche.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Avalanche(chainId);
-  };
-
-  var _proto = Avalanche.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Avalanche, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return Avalanche;
-}(NativeCurrency);
-Avalanche._cache = {};
+var WETH9 = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, WETH9_ADDRESS[exports.ChainId.MAINNET], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.FINDORA_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.FINDORA_TESTNET, WETH9_ADDRESS[exports.ChainId.FINDORA_TESTNET], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.ROPSTEN] = /*#__PURE__*/new Token(exports.ChainId.ROPSTEN, WETH9_ADDRESS[exports.ChainId.ROPSTEN], 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.BSC_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.BSC_TESTNET, WETH9_ADDRESS[exports.ChainId.BSC_TESTNET], 18, 'WETH', 'Wrapped Ether'), _WETH);
+var WNATIVE = (_WNATIVE = {}, _WNATIVE[exports.ChainId.MAINNET] = WETH9[exports.ChainId.MAINNET], _WNATIVE[exports.ChainId.FINDORA_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.FINDORA_TESTNET, WNATIVE_ADDRESS[exports.ChainId.FINDORA_TESTNET], 18, 'WETH', 'Wrapped Ether on Findora'), _WNATIVE[exports.ChainId.ROPSTEN] = WETH9[exports.ChainId.ROPSTEN], _WNATIVE[exports.ChainId.BSC_TESTNET] = /*#__PURE__*/new Token(exports.ChainId.BSC_TESTNET, WNATIVE_ADDRESS[exports.ChainId.BSC_TESTNET], 18, 'WBNB', 'Wrapped BNB'), _WNATIVE);
 
 var Binance = /*#__PURE__*/function (_NativeCurrency) {
   _inheritsLoose(Binance, _NativeCurrency);
@@ -579,38 +547,6 @@ var Binance = /*#__PURE__*/function (_NativeCurrency) {
   return Binance;
 }(NativeCurrency);
 Binance._cache = {};
-
-var Celo = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Celo, _NativeCurrency);
-
-  function Celo(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'CELO', 'Celo') || this;
-  }
-
-  Celo.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Celo(chainId);
-  };
-
-  var _proto = Celo.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Celo, [{
-    key: "wrapped",
-    get: function get() {
-      var wcelo = WNATIVE[this.chainId];
-      !!!wcelo ?  invariant(false, 'WRAPPED')  : void 0;
-      return wcelo;
-    }
-  }]);
-
-  return Celo;
-}(NativeCurrency);
-Celo._cache = {};
 
 /**
  * Ether is the main usage of a 'native' currency, i.e. for Ethereum mainnet and all testnets
@@ -647,326 +583,6 @@ var Ether = /*#__PURE__*/function (_NativeCurrency) {
   return Ether;
 }(NativeCurrency);
 Ether._etherCache = {};
-
-var Fantom = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Fantom, _NativeCurrency);
-
-  function Fantom(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'FTM', 'Fantom') || this;
-  }
-
-  Fantom.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Fantom(chainId);
-  };
-
-  var _proto = Fantom.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Fantom, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return Fantom;
-}(NativeCurrency);
-Fantom._cache = {};
-
-var Harmony = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Harmony, _NativeCurrency);
-
-  function Harmony(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'ONE', 'Harmony') || this;
-  }
-
-  Harmony.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Harmony(chainId);
-  };
-
-  var _proto = Harmony.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Harmony, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return Harmony;
-}(NativeCurrency);
-Harmony._cache = {};
-
-var Heco = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Heco, _NativeCurrency);
-
-  function Heco(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'HT', 'Huobi Token') || this;
-  }
-
-  Heco.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Heco(chainId);
-  };
-
-  var _proto = Heco.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Heco, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return Heco;
-}(NativeCurrency);
-Heco._cache = {};
-
-var Matic = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Matic, _NativeCurrency);
-
-  function Matic(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'MATIC', 'Matic') || this;
-  }
-
-  Matic.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Matic(chainId);
-  };
-
-  var _proto = Matic.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Matic, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return Matic;
-}(NativeCurrency);
-Matic._cache = {};
-
-var Movr = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Movr, _NativeCurrency);
-
-  function Movr(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'MOVR', 'Moonriver') || this;
-  }
-
-  Movr.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Movr(chainId);
-  };
-
-  var _proto = Movr.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Movr, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return Movr;
-}(NativeCurrency);
-Movr._cache = {};
-
-var Okex = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Okex, _NativeCurrency);
-
-  function Okex(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'OKT', 'OKExChain') || this;
-  }
-
-  Okex.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Okex(chainId);
-  };
-
-  var _proto = Okex.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Okex, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return Okex;
-}(NativeCurrency);
-Okex._cache = {};
-
-var xDai = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(xDai, _NativeCurrency);
-
-  function xDai(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'XDAI', 'xDai') || this;
-  }
-
-  xDai.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new xDai(chainId);
-  };
-
-  var _proto = xDai.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(xDai, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return xDai;
-}(NativeCurrency);
-xDai._cache = {};
-
-var Palm = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Palm, _NativeCurrency);
-
-  function Palm(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'PALM', 'Palm') || this;
-  }
-
-  Palm.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Palm(chainId);
-  };
-
-  var _proto = Palm.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Palm, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return Palm;
-}(NativeCurrency);
-Palm._cache = {};
-
-var Fuse = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Fuse, _NativeCurrency);
-
-  function Fuse(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'FUSE', 'Fuse') || this;
-  }
-
-  Fuse.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Fuse(chainId);
-  };
-
-  var _proto = Fuse.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Fuse, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return Fuse;
-}(NativeCurrency);
-Fuse._cache = {};
-
-var Telos = /*#__PURE__*/function (_NativeCurrency) {
-  _inheritsLoose(Telos, _NativeCurrency);
-
-  function Telos(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'TLOS', 'Telos') || this;
-  }
-
-  Telos.onChain = function onChain(chainId) {
-    var _this$_cache$chainId;
-
-    return (_this$_cache$chainId = this._cache[chainId]) != null ? _this$_cache$chainId : this._cache[chainId] = new Telos(chainId);
-  };
-
-  var _proto = Telos.prototype;
-
-  _proto.equals = function equals(other) {
-    return other.isNative && other.chainId === this.chainId;
-  };
-
-  _createClass(Telos, [{
-    key: "wrapped",
-    get: function get() {
-      var wnative = WNATIVE[this.chainId];
-      !!!wnative ?  invariant(false, 'WRAPPED')  : void 0;
-      return wnative;
-    }
-  }]);
-
-  return Telos;
-}(NativeCurrency);
-Telos._cache = {};
 
 var Findora = /*#__PURE__*/function (_NativeCurrency) {
   _inheritsLoose(Findora, _NativeCurrency);
@@ -5199,7 +4815,6 @@ exports.ACTION_UPDATE_EXCHANGE_RATE = ACTION_UPDATE_EXCHANGE_RATE;
 exports.ARCHER_ROUTER_ADDRESS = ARCHER_ROUTER_ADDRESS;
 exports.ASSERT = ASSERT;
 exports.AbstractCurrency = AbstractCurrency;
-exports.Avalanche = Avalanche;
 exports.BAR_ADDRESS = BAR_ADDRESS;
 exports.BENTOBOX_ADDRESS = BENTOBOX_ADDRESS;
 exports.BORING_HELPER_ADDRESS = BORING_HELPER_ADDRESS;
@@ -5207,7 +4822,6 @@ exports.Binance = Binance;
 exports.CHAINLINK_ORACLE_ADDRESS = CHAINLINK_ORACLE_ADDRESS;
 exports.CL_MAX_TICK = CL_MAX_TICK;
 exports.CL_MIN_TICK = CL_MIN_TICK;
-exports.Celo = Celo;
 exports.ConstantProductPool = ConstantProductPool;
 exports.CurrencyAmount = CurrencyAmount;
 exports.ENS_REGISTRAR_ADDRESS = ENS_REGISTRAR_ADDRESS;
@@ -5217,13 +4831,9 @@ exports.FACTOR_PRECISION = FACTOR_PRECISION;
 exports.FIVE = FIVE;
 exports.FULL_UTILIZATION = FULL_UTILIZATION;
 exports.FULL_UTILIZATION_MINUS_MAX = FULL_UTILIZATION_MINUS_MAX;
-exports.Fantom = Fantom;
 exports.FillLimitOrder = FillLimitOrder;
 exports.Findora = Findora;
 exports.Fraction = Fraction;
-exports.Fuse = Fuse;
-exports.Harmony = Harmony;
-exports.Heco = Heco;
 exports.HybridComputeLiquidity = HybridComputeLiquidity;
 exports.HybridgetY = HybridgetY;
 exports.INIT_CODE_HASH = INIT_CODE_HASH;
@@ -5244,19 +4854,15 @@ exports.MINIMUM_INTEREST_PER_YEAR = MINIMUM_INTEREST_PER_YEAR;
 exports.MINIMUM_LIQUIDITY = MINIMUM_LIQUIDITY;
 exports.MINIMUM_TARGET_UTILIZATION = MINIMUM_TARGET_UTILIZATION;
 exports.MULTICALL2_ADDRESS = MULTICALL2_ADDRESS;
-exports.Matic = Matic;
 exports.MaxUint256 = MaxUint256;
-exports.Movr = Movr;
 exports.NATIVE = NATIVE;
 exports.NativeCurrency = NativeCurrency;
 exports.ONE = ONE;
-exports.Okex = Okex;
 exports.OutOfLiquidity = OutOfLiquidity;
 exports.PEGGED_ORACLE_ADDRESS = PEGGED_ORACLE_ADDRESS;
 exports.PROTOCOL_FEE = PROTOCOL_FEE;
 exports.PROTOCOL_FEE_DIVISOR = PROTOCOL_FEE_DIVISOR;
 exports.Pair = Pair;
-exports.Palm = Palm;
 exports.Percent = Percent;
 exports.Pool = Pool;
 exports.Price = Price;
@@ -5281,7 +4887,6 @@ exports.TEN = TEN;
 exports.THREE = THREE;
 exports.TIMELOCK_ADDRESS = TIMELOCK_ADDRESS;
 exports.TWO = TWO;
-exports.Telos = Telos;
 exports.Token = Token;
 exports.Trade = Trade;
 exports.USD = USD;
@@ -5328,5 +4933,4 @@ exports.tradeComparator = tradeComparator;
 exports.types = types;
 exports.validateAndParseAddress = validateAndParseAddress;
 exports.validateSolidityTypeInstance = validateSolidityTypeInstance;
-exports.xDai = xDai;
 //# sourceMappingURL=sdk.cjs.development.js.map
