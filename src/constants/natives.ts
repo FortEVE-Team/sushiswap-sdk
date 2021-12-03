@@ -46,5 +46,5 @@ export const NATIVE = {
   [ChainId.MOONRIVER]: Movr.onChain(ChainId.MOONRIVER),
   [ChainId.FUSE]: Fuse.onChain(ChainId.FUSE),
   [ChainId.TELOS]: Telos.onChain(ChainId.TELOS),
-  [ChainId.FINDORA_TESTNET]: Telos.onChain(ChainId.FINDORA_TESTNET),
+  [ChainId.FINDORA_TESTNET]: Findora.onChain(ChainId.FINDORA_TESTNET),
 }
