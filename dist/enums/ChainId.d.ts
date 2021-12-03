@@ -11,7 +11,6 @@ export declare enum ChainId {
     XDAI = 100,
     BSC = 56,
     BSC_TESTNET = 97,
-    FINDORA_TESTNET = 525,
     ARBITRUM = 42161,
     ARBITRUM_TESTNET = 79377087078960,
     MOONBEAM_TESTNET = 1287,
@@ -28,5 +27,6 @@ export declare enum ChainId {
     PALM_TESTNET = 11297108099,
     MOONRIVER = 1285,
     FUSE = 122,
-    TELOS = 40
+    TELOS = 40,
+    FINDORA_TESTNET = 525
 }

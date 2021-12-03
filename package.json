@@ -33,7 +33,6 @@
     "*.md": "prettier --write"
   },
   "dependencies": {
-    "@serabeswap/sdk": "git://github.com/FortEVE-Team/sushiswap-sdk.git#serabeswap-sdk",
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/abstract-signer": "^5.4.0",
     "@ethersproject/address": "^5.4.0",
