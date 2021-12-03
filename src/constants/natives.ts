@@ -13,6 +13,7 @@ import {
   Palm,
   xDai,
   Telos,
+  Findora,
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
